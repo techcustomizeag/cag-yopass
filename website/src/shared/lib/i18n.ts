@@ -3,14 +3,14 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 // Import translations
-import { en, sv, no, de, by, ru, fr, nl, es } from '../locales';
+import { en, de, fr } from '../locales'; // import { en, sv, no, de, by, ru, fr, nl, es } from '../locales'
 
 i18n
   .use(initReactI18next)
   .use(LanguageDetector)
   .init({
     resources: {
-      en: {
+      /* en: {
         translation: en,
       },
       sv: {
@@ -36,7 +36,16 @@ i18n
       },
       es: {
         translation: es,
+      }, */
+      en: {
+        translation: en,
       },
+      de: {
+        translation: de,
+      },
+      fr: {
+        translation: fr,
+      }
     },
     fallbackLng: 'en',
     debug: false,

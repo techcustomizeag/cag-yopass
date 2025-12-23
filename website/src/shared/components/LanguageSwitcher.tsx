@@ -5,14 +5,14 @@ export default function LanguageSwitcher() {
 
   const languages = [
     { code: 'en', name: 'English' },
-    { code: 'sv', name: 'Svenska' },
-    { code: 'no', name: 'Norsk' },
+    //{ code: 'sv', name: 'Svenska' },
+    //{ code: 'no', name: 'Norsk' },
     { code: 'de', name: 'Deutsch' },
-    { code: 'ru', name: 'Русский' },
-    { code: 'by', name: 'Беларускі' },
+    //{ code: 'ru', name: 'Русский' },
+    //{ code: 'by', name: 'Беларускі' },
     { code: 'fr', name: 'Français' },
-    { code: 'nl', name: 'Nederlands' },
-    { code: 'es', name: 'Español' },
+    //{ code: 'nl', name: 'Nederlands' },
+    //{ code: 'es', name: 'Español' },
   ];
 
   function handleLanguageChange(languageCode: string) {

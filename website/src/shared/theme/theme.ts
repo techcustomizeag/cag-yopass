@@ -1,7 +1,7 @@
 export type LogicalTheme = 'light' | 'dark';
 
-export const LIGHT_DAISY_THEME = 'emerald';
-export const DARK_DAISY_THEME = 'dim';
+export const LIGHT_DAISY_THEME = 'lofi';
+export const DARK_DAISY_THEME = 'black';
 
 export const THEME_STORAGE_KEY = 'themeMode';
 
