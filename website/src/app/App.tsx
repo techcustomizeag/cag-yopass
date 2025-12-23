@@ -1,4 +1,4 @@
-import FeaturesSection from '@shared/components/FeaturesSection';
+// import FeaturesSection from '@shared/components/FeaturesSection';
 import CreateSecret from '@features/CreateSecret';
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import { useConfig } from '@shared/hooks/useConfig';
@@ -32,7 +32,7 @@ export default function App() {
               </Routes>
             </div>
           </div>
-         {/* <FeaturesSection /> */}
+          {/* <FeaturesSection /> */}
         </div>
       </HashRouter>
       {/* Footer */}
