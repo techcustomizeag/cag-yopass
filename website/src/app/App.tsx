@@ -32,7 +32,7 @@ export default function App() {
               </Routes>
             </div>
           </div>
-          <FeaturesSection />
+         {/* <FeaturesSection /> */}
         </div>
       </HashRouter>
       {/* Footer */}
